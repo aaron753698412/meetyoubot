@@ -16,12 +16,12 @@ const puppeteer = require('puppeteer');
     await page.waitForNavigation();
 
     // Navigate to your specific room
-    await page.goto('https://meetyou.me/room/12345'); // Replace with your room's URL
+    await page.goto('https://y99.in/r/1975573'); // Replace with your room's URL
 
     console.log("Bot is in the room!");
 
     // Optional: Monitor messages or send a greeting
-    await page.type('#chatInput', 'Hello, I am MyBot123! Ready to assist.'); // Adjust selector for chat input
+    await page.type('#chatInput', 'Hello, I am BOT_OCEAN! Ready to assist.'); // Adjust selector for chat input
     await page.click('#sendButton'); // Adjust selector for send button
 
     // Keep the bot running
