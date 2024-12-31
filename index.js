@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
         const page = await browser.newPage();
 
         // Go to the meetyou.me website
-        await page.goto('https://www.meetyou.me', { waitUntil: 'networkidle2' });
+        await page.goto('https://meetyou.me/app/login', { waitUntil: 'networkidle2' });
 
         // Log in (replace with your bot's credentials)
         await page.type('.input-username', 'BOT_OCEAN');
